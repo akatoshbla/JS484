@@ -1,0 +1,51 @@
+body {
+  background: #a9aba9;
+}
+
+#container {
+  background: #ffffff;
+  width: 15em;
+  margin: 1em;
+  padding: 1em;
+}
+
+#field {
+  border: solid #bec6c3 0.1em;
+}
+
+#fieldTitle {
+  color: #e64b36;
+  font-size: 1.5em;  
+}
+
+.labs {
+  font-size: 1.2em;
+}
+
+input {
+  border: thin #bec6c3 0.1em;
+  font-size: 0.9em;
+}
+
+select {
+  font-size: inherit;
+  width: 8em;
+}
+
+#submitButton {
+  margin-top: .7em;
+  border-radius: 0.5em;
+  background: #ffffff;
+  font-size: 0.7em;
+  border: 0.2em solid #82cec9;
+}
+
+#addMessage {
+  visibility: hidden;
+  margin: 1em 0em 0em 0em;
+}
+
+output {
+  visibility: hidden;
+  font-size: 1.2em;
+}

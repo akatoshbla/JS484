@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Image Viewer 1.2</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>    
+<canvas id="snow"></canvas>
+<div class="gallery" align="center">
+    <h2>The Kopp Family Photo Gallery</h2><br />
+    <div class="preview" align="center">
+        <img id="previewImage" src="images/1.jpg" />
+        <figcaption id="previewCaption">Image 1</figcaption>
+    </div>
+    <div class="thumbnails" id="thumbnails">   
+    </div>  
+    <div id="downloadButtons">
+        <input type="button" id="checkAllButton" value="Check All"></input>
+        <input type="button" id="uncheckAllButton" value="Uncheck All"></input>
+        <input type="button" id="downloadButton" value="Download Zip"></input>
+    </div>
+</div>
+<div class="modal" id="modal">
+    <span class="close" id="close">X</span>
+    <img class="modalContent" id="modalContent" />
+</div>
+<div id="links">
+    <audio src="sounds/snow.mp3" controls autoplay loop></audio><br />
+    <a id="homeLink" href="http://www.nexusgaming.duckdns.org/index.html" target="_blank">Nexus Gaming Homepage</a>
+</div>
+<footer align="center"><i>This website is part of an ongoing project by David Kopp</i></footer>
+</body>
+    <script type="text/javascript" src="scripts/FileSaver.min.js"></script>
+    <script type="text/javascript" src="scripts/jszip-utils.min.js"></script>
+    <script type="text/javascript" src="scripts/jszip.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</html>

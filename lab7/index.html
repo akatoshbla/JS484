@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Comp484 Lab Assignment 7</title>
+</head>
+<body>
+  <div id="container">
+    <form>
+      <fieldset id="field">
+        <legend id="fieldTitle">Add an Employee</legend>
+        <label class="labs">First Name</label><br />
+        <input type="text" id="firstName" required="required"/><br />
+        <label class="labs">Last Name</label><br />
+        <input type="text" id="lastName" required="required"/><br />
+        <label class="labs">Department<label><br />
+        <select id="select" required="required">
+          <option value="Arts">Arts</option>
+          <option value="Education">Education</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Health">Health</option>
+          <option value="Humanities">Humanities</option>
+          <option value="Science">Science</option>
+        </select><br />
+        <input type="button" id="submit" value="Submit &rarr;"/><br /> 
+      </fieldset><br />      
+      <h2 id="addMessage">Employee Added</h2><br />
+      <output id="resultName">Name:</output><br />
+      <output id="resultDepartment">Department:</output><br />
+      <output id="resultId">Employee ID:</output><br />
+      <output id="resultDate">Hire Date:</output><br />
+      <output id="resultTotal">Total Employees:</output>
+    </form> 
+  </div>
+</body>
+<script src="main.js"></script>      
+</html>
